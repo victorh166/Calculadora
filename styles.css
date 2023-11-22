@@ -1,0 +1,63 @@
+/* Estilos para la calculadora */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #4d4dff; /* Fondo azul */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#calculator {
+    background-color: #f2f2f2; /* Fondo blanco */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+}
+
+#display {
+    width: 100%;
+    padding: 10px;
+    font-size: 2em;
+    text-align: left;
+    border: none;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #e6e6e6; /* Fondo gris claro */
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1px;
+}
+
+
+.tecla {
+     /* Configuracion del ancho de los botones*/
+        width: 98%;
+        height: 80px;
+        font-size: 1.5em;
+        margin: 0;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        background-color: #b3b3b3; /* Fondo gris */
+        color: #000; /* Texto negro */
+    }
+    
+
+/* Estilos para el cambio de tamaño de los botones al hacer hover */
+
+.tecla:hover {
+    /*se usa una transformación de escala para agrandar el botón sin afectar a los demás */
+    transform: scale(1.1);
+}
+
+
+
+
+
