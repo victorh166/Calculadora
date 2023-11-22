@@ -15,9 +15,4 @@ Este proyecto es una calculadora b√°sica que permite realizar operaciones matem√
 
 ## Uso
 
-1. Clona el repositorio:
-
-   ```bash
-   git clone <[URL_del_repositorio](https://github.com/victorh166/Calculadora/)>
-
 Abre el archivo index.html en tu navegador web.
